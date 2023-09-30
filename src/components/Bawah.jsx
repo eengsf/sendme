@@ -1,10 +1,10 @@
 import logo from "../assets/image/logo.png";
 import { BsInstagram } from "react-icons/bs";
 
-const Footer = () => {
+function Footer() {
   return (
     <>
-      <footer className="bg-slate-50 flex w-screen flex-col justify-between  space-y-6  font-mono px-5 pb-10 text-center text-base font-semibold md:flex-row md:divide-x-2 md:divide-y-0 md:text-start md:text-sm">
+      <div className="bg-slate-50 flex w-screen flex-col justify-between  space-y-6  font-mono px-5 pb-10 text-center text-base font-semibold md:flex-row md:divide-x-2 md:divide-y-0 md:text-start md:text-sm">
         <div className="flex w-full items-center justify-center leading-none mt-3">
           <img
             className="order-1 object-contain md:w-[150px]"
@@ -43,9 +43,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </footer>
+      </div>
     </>
   );
-};
+}
 
 export default Footer;

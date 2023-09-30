@@ -3,7 +3,7 @@
 const AboutSection = () => {
   return (
     <>
-      <div className="text-center font-mono">
+      <div className="text-center font-mono" id="about">
         <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-indigo-600 ">
           About <span className="text-gray-900">Us</span>
         </h3>
