@@ -9,18 +9,18 @@ const Hero = () => {
 
   return (
     <>
-      <div className="max-w-screen-xl lg:my-20 sm:my-1 px-8  mx-auto font-mono">
+      <div className="max-w-screen-xl lg:my-20 sm:my-1 px-8  mx-auto font-mono mb-10">
         <ScrollAnimationWrapper>
           <motion.div
             className="grid grid-flow-row sm:grid-flow-col sm:grid-rows-2 md:grid-rows-none  sm:grid-cols-2 gap-8 py-6 sm:py-2 sm:gap-0"
             variants={scrollAnimation}
           >
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+              <h1 className="text-2xl lg:text-4xl xl:text-5xl  font-medium text-black-600 leading-normal">
                 Print Anytime, Anywhere: Hemat Waktu,{" "}
                 <strong>Hemat Biaya!</strong>
               </h1>
-              <p className="text-black-500 mt-4 mb-6 font-medium text-lg">
+              <p className="text-black-500 mt-4 mb-6 font-medium lg:text-lg md:text-sm">
                 Inovatif, cepat, dan praktis: SendMe Printing memenuhi kebutuhan
                 cetak Anda. Layanan 24 jam, gratis delivery order di atas 10
                 ribu.

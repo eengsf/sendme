@@ -152,7 +152,9 @@ export default function Navbar() {
     <nav>
       <div className="flex justify-between items-center bg-white shadow-lg sm:px-20 sm:pb-2 sm:pt-4 px-8 py-3 font-bold mb-3">
         <div className="font-poppins w-12">
-          <img src={logo} alt="logo" />
+          <a href="https://sendme-seven.vercel.app/">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <NavbarBigSmall checked={showLayer} onChange={handleChange} />
       </div>
