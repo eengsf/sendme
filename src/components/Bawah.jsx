@@ -35,12 +35,13 @@ function Footer() {
           <div className="space-y-4 self-center">
             <p className="text-lg font-bold ">Socialize with SendMe</p>
             <ul className="flex justify-center space-x-3 text-2xl">
-              <li className="bg-glass-purple-300 rounded-full p-2 text-primary-500">
+              <li className="bg-glass-purple-300 rounded-full  text-primary-500">
                 <a href="https://www.instagram.com/sendmeprinting/">
                   <BsInstagram />
                 </a>
               </li>
             </ul>
+            <p className="text-sm text-center">@sendmeprinting</p>
           </div>
         </div>
       </div>

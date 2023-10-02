@@ -101,16 +101,16 @@ function Features() {
                 <div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
                   <div className="flex items-center -mt-1">
                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                      Service Printer
+                      Jasa Desain
                     </h3>
                   </div>
                   <p className="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">
                     ------------
                   </p>
                   <p className="mb-2 text-gray-600">
-                    Teknisi terlatih kami siap memberikan layanan terbaik untuk
-                    jemua jenis printer. Kami mengutamakan kepuasan pelanggan
-                    dalam setiap perbaikan printer.
+                    Kami adalah tim desainer kreatif dan setiap proyek kami
+                    dijalani dengan penuh antusiasme dan inovasi, sehingga
+                    menghasilkan desain yang melebihi ekspektasi.
                   </p>
                 </div>
               </div>
